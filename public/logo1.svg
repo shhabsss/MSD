@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&amp;family=Poppins:wght@800;900&amp;display=swap');
+      .msd-bold {
+        font-family: 'Arial Black', 'Impact', sans-serif;
+        font-size: 240px;
+        font-weight: 900;
+        fill: #FFCC00;
+        stroke: #111111;
+        stroke-width: 9px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        paint-order: stroke fill;
+      }
+      .facility-text {
+        font-family: 'Poppins', 'Montserrat', 'Arial Black', sans-serif;
+        font-size: 110px;
+        font-weight: 900;
+        fill: #008744;
+        letter-spacing: -2px;
+      }
+      .services-text {
+        font-family: 'Arial Black', 'Impact', sans-serif;
+        font-size: 112px;
+        font-weight: 900;
+        fill: #FFCC00;
+        stroke: #111111;
+        stroke-width: 6.5px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        letter-spacing: 2px;
+        paint-order: stroke fill;
+      }
+    </style>
+  </defs>
+
+  <!-- MSD block letters -->
+  <text x="10" y="270" class="msd-bold">MSD</text>
+
+  <!-- Stylized Green Leaf -->
+  <g transform="translate(440, 10)">
+    <!-- Leaf outer shape with green border and translucent white fill -->
+    <path d="M 40 140 C 90 70 180 18 310 20 C 370 24 410 32 445 5 C 430 48 405 105 340 145 C 250 205 130 195 40 140 Z" 
+          fill="#ffffff" stroke="#008744" stroke-width="9" stroke-linejoin="round" />
+    <!-- Leaf central vein stem -->
+    <path d="M 40 140 C 140 155 260 140 435 15" 
+          fill="none" stroke="#008744" stroke-width="6" stroke-linecap="round" />
+    <!-- Leaf lateral veins -->
+    <path d="M 125 150 C 140 125 160 100 185 78" fill="none" stroke="#008744" stroke-width="5" stroke-linecap="round" />
+    <path d="M 185 152 C 205 125 230 98 260 72" fill="none" stroke="#008744" stroke-width="5" stroke-linecap="round" />
+    <path d="M 250 147 C 275 120 300 92 335 68" fill="none" stroke="#008744" stroke-width="5" stroke-linecap="round" />
+    <path d="M 320 135 C 345 110 370 85 395 62" fill="none" stroke="#008744" stroke-width="4.5" stroke-linecap="round" />
+  </g>
+
+  <!-- facility lowercase bold green -->
+  <text x="460" y="230" class="facility-text">facility</text>
+
+  <!-- SERVICES uppercase yellow with black outline -->
+  <text x="460" y="325" class="services-text">SERVICES</text>
+</svg>

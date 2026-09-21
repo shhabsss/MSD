@@ -1,0 +1,6 @@
+{
+  "name": "MSDFS Facility Services",
+  "description": "Native Android & Web booking management and staff assignment system for MSDFS Facility Services, Pondicherry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
